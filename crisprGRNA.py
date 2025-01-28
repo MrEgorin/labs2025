@@ -1,6 +1,6 @@
 import re
 
-"""Важливо: не працює для CRISPR/Cas12a нуклеазою!"""
+"""Важливо: не працює з CRISPR/Cas12a нуклеазою!"""
 def find_gRNA(dna_sequence, pam="NGG", gRNA_length=20, gc_content_range=(40, 60)):
     """
     Знаходить можливі gRNA у послідовності ДНК.
